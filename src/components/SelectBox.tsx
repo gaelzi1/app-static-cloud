@@ -1,25 +1,25 @@
-import { cats } from '@/constants/animals';
 import Image from 'next/image';
 import React from 'react';
 
 interface SelectBoxProps {
     select:string,
     setSelect: (value:string) => void
+    animals: {name:string, href:string}[]
 }
 
-const SelectBox = ({select, setSelect}: SelectBoxProps) => {
-  const catsImgs = cats;
+const SelectBox = ({select, setSelect, animals}: SelectBoxProps) => {
+  const animalsImgs = animals;
   return (
     <div className='flex flex-row flex-wrap justify-around w-full'>
-      {catsImgs.map((cat, index) => (
+      {animalsImgs.map((animal, index) => (
         <div
           key={index}
-          className={`w-[30vw] h-[50vh] flex justify-center items-center cardAnimal ${cat.name === select && 'cardAnimalSelect'}`}
-          onClick={()=>setSelect(cat.name)}
+          className={`w-[30vw] h-[50vh] flex justify-center items-center cardAnimal ${animal.name === select && 'cardAnimalSelect'}`}
+          onClick={()=>setSelect(animal.name)}
         >
           <div className='relative w-[17vw] h-[40vh] m-2'>
             <Image
-              src={cat.href}
+              src={animal.href}
               alt=''
               layout='fill'
               objectFit='cover'
