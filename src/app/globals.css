@@ -36,3 +36,11 @@ body {
  
  
 }
+
+.cardAnimal:hover {
+  @apply rounded-full bg-gradient-radial from-white to-[#C1BBBB];
+}
+
+.cardAnimalSelect {
+  @apply rounded-full bg-gradient-radial from-white to-[#C1BBBB];
+}
