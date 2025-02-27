@@ -1,16 +1,14 @@
 'use client'
 
 import React from 'react';
-import Facebook from '../img/facebook.svg';
-import Instagram from '../img/instagram.svg';
-import X from '../img/x.svg';
+
 import Shihtzu from '../img/shihtzu.jpg';
 import Cat from '../img/cat.jpg';
 
 
 export default function AdoptionScreen() {
     return (
-      <div className="bg-gray-100 min-h-screen p-6">
+      <div className="font-poppins bg-gray-100 min-h-screen p-6">
         <div className="max-w-4xl mx-auto">
           {/* Sección superior */}
           <div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-6">
@@ -44,26 +42,7 @@ export default function AdoptionScreen() {
         </div>
         
         {/* Pie de página */}
-        <footer className="mt-12 text-gray-600 text-center text-sm">
-          <p>Síguenos en:</p>
-          <div className="flex justify-center gap-4 mt-2">
-            <img src={Facebook.src} alt="Logo X" className="w-6 h-6" />
-            <img src={X.src} alt="Facebook" className="w-6 h-6" />
-            <img src={Instagram.src} alt="Instagram" className="w-6 h-6" />
-          </div>
-          <div className="mt-4">
-            <p className="font-semibold">Servicio para mascotas</p>
-            <p className="text-xs">Entrenamiento | Blog | Adopción | Veterinarios</p>
-          </div>
-          <div className="mt-2">
-            <p className="font-semibold">Categorías</p>
-            <p className="text-xs">Perro | Gato | Pequeños mamíferos | Aves</p>
-          </div>
-          <div className="mt-2">
-            <p className="font-semibold">Enlaces de interés</p>
-            <p className="text-xs">Aviso de privacidad | Términos y condiciones | Políticas de envío | Proveedores</p>
-          </div>
-        </footer>
+        
       </div>
     );
   }

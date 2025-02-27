@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import streetDog from "../img/streetDog.jpg";
 

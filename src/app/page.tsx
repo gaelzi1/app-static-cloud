@@ -26,6 +26,7 @@ export default function Home() {
           <div className="col-span-1 flex flex-col gap-4 h-full">
             <EventCard className="flex-1" />
             <RequestCard className="flex-1" />
+            
           </div>
         </div>
       </div>
