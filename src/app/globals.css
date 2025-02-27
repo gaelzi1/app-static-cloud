@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -35,4 +36,12 @@ body {
   grid-template-columns: repeat(2,1fr);
  
  
+}
+
+.cardAnimal:hover {
+  @apply rounded-full bg-gradient-radial from-white to-[#C1BBBB];
+}
+
+.cardAnimalSelect {
+  @apply rounded-full bg-gradient-radial from-white to-[#C1BBBB];
 }

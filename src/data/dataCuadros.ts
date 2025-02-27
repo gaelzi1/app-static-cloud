@@ -55,9 +55,11 @@ export const RecuadroData = [
   { 
     title: "Comunidad", 
     subtitles: [
-      {texts: [
+      {name :"",
+        texts: [
         {text:"Los perros y gatos mas que mascotas son familia", style:""}]},
-      {texts: [
+      {name :"",
+        texts: [
        { text:"Rescates y adopcion.", style:""}]}
     ], 
      
