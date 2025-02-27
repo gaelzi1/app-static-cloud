@@ -5,6 +5,7 @@ import ImageCard from "@/components/imageCard";
 import RequestCard from "@/components/requestCard";
 import Welcome from "@/components/welcome";
 import { RecuadroData } from "@/data/dataCuadros";
+import AdoptionScreen from "@/components/adoptionScreen";
 import "../app/globals.css";
 
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Welcome />
     <div className="mt-56">
       <Recuadros data={RecuadroData} />
+      <AdoptionScreen />
       </div>
       <div className="mt-0 w-full flex justify-center px-16 py-24"> 
         <div className="grid grid-cols-2 gap-4 w-full">
