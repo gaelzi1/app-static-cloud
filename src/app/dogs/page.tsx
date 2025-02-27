@@ -1,9 +1,16 @@
-import React from 'react'
+"use client"
+import BtnSelect from '@/components/BtnSelect'
+import SelectBox from '@/components/SelectBox'
+import { dogs } from '@/constants/animals'
+import React, { useState } from 'react'
 
-const page = () => {
+export default function page() {
+  const [selected, setSelected] = useState('')
+      const dogsImgs = dogs
   return (
-    <div>Dogs</div>
+        <section className='flex flex-col items-center justify-around  h-full'>
+            <SelectBox select={selected} setSelect={setSelected} animals={dogs}/>
+            <BtnSelect/>
+        </section>
   )
 }
-
-export default page

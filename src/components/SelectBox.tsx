@@ -22,7 +22,7 @@ const SelectBox = ({select, setSelect, animals}: SelectBoxProps) => {
               src={animal.href}
               alt=''
               layout='fill'
-              objectFit='cover'
+              objectFit='contain'
               className='rounded-lg'
             />
           </div>
