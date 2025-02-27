@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Welcome from "@/components/welcome";
 import { Recuadros } from "@/components/cuadros";
 import { RecuadroData } from "@/data/dataCuadros";
+import AdoptionScreen from "@/components/adoptionScreen";
 import "../app/globals.css";
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Welcome />
     <div className="mt-56">
       <Recuadros data={RecuadroData} />
+      <AdoptionScreen />
       </div>
     </div>
   );
