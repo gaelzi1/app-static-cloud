@@ -1,13 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output:"export",
+  output: "export", // Sin espacio extra
   images: {
-    unoptimized: true,
+    unoptimized: true, // Necesario para `next export`
   },
-  basePath: "/app-static-cloud", // Cambia "TU_REPO" por el nombre de tu repo en GitHub
-  assetPrefix: "/app-static-cloud/", // También usa el nombre del repo aquí
-  
+  basePath: "/app-static-cloud", // Cambia según la URL de Azure si es necesario
+  assetPrefix: "/app-static-cloud/", // Asegúrate de que sea la misma ruta donde se sirven los archivos estáticos
 };
 
 export default nextConfig;
