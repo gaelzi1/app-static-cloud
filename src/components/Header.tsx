@@ -13,7 +13,7 @@ interface HeaderProps {
 export default function Header ({path}:HeaderProps){
     const routes = navigate
     return (
-        <header className='flex space-x-4 items-center justify-between p-4 px-10 '>
+        <header className='flex space-x-4 items-center bg-[F3F4F6] justify-between p-4 px-10  '>
            <Link href='/'><img src={Logo.src} alt="Logo" className="w-20 h-20 rounded-full" /></Link>
            <div className='flex space-x-12 text-base fomt-popins'>
             {routes.map((route, index) => (

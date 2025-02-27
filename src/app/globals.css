@@ -5,10 +5,6 @@
 @tailwind utilities;
 
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -26,8 +22,7 @@ body {
   -webkit-mask-image: linear-gradient(black 80%, transparent);
 }
 .cardGeneral {
-  padding: 1rem;
-  width: 6rem;
+  display: flex;
 }
 
 .cardParagraph {

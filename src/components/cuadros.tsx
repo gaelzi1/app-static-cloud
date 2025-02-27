@@ -26,11 +26,11 @@ export function Recuadros({ data }: RecuadrosProps) {
           {item.subtitles.map((subtitle, subtitleIndex) => (
             <div key={subtitleIndex} className="mb-2">
               <h3 className="ml-4 text-lg ">{subtitle.name}</h3>
-              <ul className="  flex flex-wrap text-base font-light">
+              <ul className="  cardParagraph text-base font-light">
               {subtitle.texts.map(({ text, style }, textIndex) => (
                   <li 
                   key={textIndex}
-                  className={`${style||""} mt-1 pl-4`} >
+                  className={`${style||""} mt-1 pl-4 `} >
                     {text}
                   </li>
                 ))}

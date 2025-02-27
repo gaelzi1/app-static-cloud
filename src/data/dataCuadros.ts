@@ -8,20 +8,20 @@ export const RecuadroData = [
       {
         name : "EDAD" , 
         texts : [
-        {text:"Cachorro" , style:"cardGeneral"},
-        { text:"Adulto",style:"cardGeneral "}, 
-        {text:"Senior", style:"cardGeneral "}
+        {text:"Cachorro" , style:""},
+        { text:"Adulto",style:" "}, 
+        {text:"Senior", style:""}
         ],
       
   },
       {
         name :"NECESIDADES ESPECIALES" , 
         texts : [
-        {text:"Sin granos", style:"cardGeneral "},
-        {text:"Alta proteina", style:"cardGeneral "},
-        {text:"Manejo de peso", style:"cardGeneral "},
-        {text:"soporte movilidad y articulaciones", style:"cardGeneral "},
-        {text:"estomagos sencibles", style:"cardGeneral "},
+        {text:"Sin granos", style:" "},
+        {text:"Alta proteina", style:""},
+        {text:"Manejo de peso", style:" "},
+        {text:"estomagós sensibles", style:" "},
+        {text:"soporte movilidad y articulaciones", style:" "},
       ],
     },     
   ],
@@ -34,18 +34,18 @@ export const RecuadroData = [
       {
         name : "EDAD" , 
         texts : [
-        {text:"Cachorro" , style:"carGeneral "},
-        { text:"Adulto",style:"carGeneral "}, 
-        {text:"Senior", style:"carGeneral "}
+        {text:"Cachorro" , style:""},
+        { text:"Adulto",style:""}, 
+        {text:"Senior", style:" "}
         ],
       },
       {name :"NECESIDADES ESPECIALES" , 
         texts : [
-        {text:"Sin granos", style:"cardParagraph "},
-        {text:"Alta proteina", style:"cardParagraph "},
-        {text:"Manejo de peso", style:"cardParagraph "},
-        {text:"soporte movilidad y articulaciones", style:"cardParagraph "},
-        {text:"estomagos sencibles", style:"cardParagraph "}
+        {text:"Sin granos", style:" "},
+        {text:"Alta proteina", style:" "},
+        {text:"Manejo de peso", style:" "},
+         {text:"estomagós sensibles", style:" "},
+        {text:"soporte movilidad y articulaciones", style:" "},
       ],
     },     
   ],
